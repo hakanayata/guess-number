@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+</head>
+
+<body>
+    <header>
+        <h1>Guess The Number</h1>
+        <p class="range">(1 - 100)</p>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section>
+            <p class="par-last-guess">last guess: <span class="last-guess">__</span></p>
+            <p class="message">start guessing...</p>
+        </section>
+        <section class="input">
+            <input type="number" name="guess" class="guess" min="0" max="100" id="user-guess">
+            <button class="btn check" type="button">Check</button>
+        </section>
+        <section>
+            <p class="par-score">current score: <span class="score">6</span></p>
+            <p class="par-highscore">highscore: <span class="highscore">0</span></p>
+        </section>
+        <section>
+            <button class="btn start-over">Start Over</button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
