@@ -1,6 +1,6 @@
 # Guess The Number
 
-## Demo: [Netlify](guess-number-hakan.netlify.app)
+## Demo: [Netlify](https://guess-number-hakan.netlify.app)
 
 ### Goal
     Try to find the number in computer's mind.
